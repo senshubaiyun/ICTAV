@@ -109,19 +109,36 @@ td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center
 td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%} */
 table.sponsors {
-    width: 100%;
+    width:800px;
+    margin-left: 40px;
+    border-spacing: 0;
 }
 
 td.sponsor {
-    width: 33.33%;
+    width: 33%;
     text-align:center; 
     vertical-align:middle; 
-    padding:0px 0px 0px 0px;
+    padding:0px 30px 0px 0px;
+    /* padding:0px 0px 0px 0px; */
 }
 
-td.sponsor img {
-    width: 100%;
+table.organizers {
+    width: 50%;
+    margin-left: 0;
 }
+
+td.organizer {
+    width: 40%;
+    text-align:center; 
+    vertical-align:middle; 
+    /* padding:0px 0px 0px 0px; */
+    margin: 0px;
+}
+
+td.organizer img {
+    width: 50%;
+}
+
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
