@@ -82,18 +82,46 @@ th,td{
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;
+} 
+.title1 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.logo {
+    margin-right: 20px;
+}
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.conference-name {
+    font-size: 20px;
+    color: #52739e;
+    font-weight: bold;
+}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
-table.sponsors{width:800px;}
+/* table.sponsors{width:800px;}
 td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
+td.sponsor img{width: 100%} */
+table.sponsors {
+    width: 100%;
+}
+
+td.sponsor {
+    width: 33.33%;
+    text-align:center; 
+    vertical-align:middle; 
+    padding:0px 0px 0px 0px;
+}
+
+td.sponsor img {
+    width: 100%;
+}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
