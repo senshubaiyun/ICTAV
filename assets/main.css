@@ -174,7 +174,6 @@ table.dates td.date {
     text-align: left;  /* 设置文本对齐方式为左对齐 */
 }
 
-/* 设置每个单元格在偶数行的样式 */
 table.dates tr:nth-child(even) td.date {
     background-color: #f2f2f2;  /* 设置背景色为浅灰色 */
 }
