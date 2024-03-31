@@ -99,7 +99,17 @@ th,td{
     color: #52739e;
     font-weight: bold;
 }
+.conference-location {
+    margin-left: 50px;
+    width: 50%;
+    height: auto;
+}
 
+em{
+    /* 加粗 */
+    font-weight: bold;
+    color: #b2132e;
+}
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
@@ -139,6 +149,24 @@ td.organizer img {
     width: 50%;
 }
 
+
+/* 设置整个表格的样式 */
+table.dates {
+    width: 100%;  /* 设置表格宽度为100% */
+    border-collapse: collapse;  /* 合并边框 */
+}
+
+/* 设置每个单元格的样式 */
+table.dates td.date {
+    padding: 10px;  /* 设置内边距为10px */
+    border: 1px solid #000;  /* 设置边框为1px的黑色实线 */
+    text-align: left;  /* 设置文本对齐方式为左对齐 */
+}
+
+/* 设置每个单元格在偶数行的样式 */
+table.dates tr:nth-child(even) td.date {
+    background-color: #f2f2f2;  /* 设置背景色为浅灰色 */
+}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
