@@ -105,6 +105,17 @@ th,td{
     height: auto;
 }
 
+.call_for_papers
+{
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.map {
+    margin-left: 50px;
+}
+
 em{
     /* 加粗 */
     font-weight: bold;
